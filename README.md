@@ -48,10 +48,10 @@ tab's height will finally decide by the selectedFont and the topGap, bottomGap, 
 
  When the title's total length less than tab's width, if this property is No, the title's length decide by the title label length other than, it will be the tab's width divide titles count.
 **/
-
 @property (nonatomic, assign) BOOL fillout  
 
 ```
+
 ```
 @property (nonatomic, assign) CGFloat minimumInteritemSpacing;  // The space between every title
 
